@@ -295,6 +295,26 @@
         </div>
     </div>
   </footer>
+  {{-- <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const menu = document.querySelector('.menu');
+
+    function toggleMenu() {
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function checkWindowWidth() {
+      if (window.innerWidth <= 768) {
+        menuToggle.addEventListener('change', toggleMenu);
+      } else {
+        menuToggle.removeEventListener('change', toggleMenu);
+        menu.style.display = 'block';
+      }
+    }
+
+    window.addEventListener('load', checkWindowWidth);
+    window.addEventListener('resize', checkWindowWidth);
+  </script> --}}
 </body>
 
 </html>
